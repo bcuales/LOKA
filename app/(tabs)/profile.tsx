@@ -1,14 +1,14 @@
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { useMemo, useState } from 'react';
 import {
-  Alert,
-  Platform,
-  Pressable,
-  SafeAreaView,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
+    Alert,
+    Platform,
+    Pressable,
+    SafeAreaView,
+    ScrollView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { INTEREST_TAGS, USER_ROLES } from '@/constants/lokaOptions';

@@ -1,15 +1,15 @@
+import * as Google from 'expo-auth-session/providers/google';
 import { Link } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
-import * as Google from 'expo-auth-session/providers/google';
 import { useEffect, useMemo, useState } from 'react';
 import {
-  ActivityIndicator,
-  Pressable,
-  SafeAreaView,
-  Text,
-  TextInput,
-  View,
-  Platform,
+    ActivityIndicator,
+    Platform,
+    Pressable,
+    SafeAreaView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { signInWithEmail, signInWithGoogleIdToken } from '@/lib/auth';

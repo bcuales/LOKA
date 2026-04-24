@@ -2,11 +2,11 @@ import { useEffect, useMemo, useState } from 'react';
 import { Alert, Pressable, SafeAreaView, Text, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
-  interpolate,
-  runOnJS,
-  useAnimatedStyle,
-  useSharedValue,
-  withSpring,
+    interpolate,
+    runOnJS,
+    useAnimatedStyle,
+    useSharedValue,
+    withSpring,
 } from 'react-native-reanimated';
 
 import { ProfileCard } from '@/components/ProfileCard';

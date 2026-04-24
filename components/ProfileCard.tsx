@@ -1,7 +1,7 @@
-import { Image, Text, View } from 'react-native';
 import { InterestTag } from '@/components/InterestTag';
-import type { LokaUserProfile } from '@/types/loka';
 import { INTEREST_TAGS } from '@/constants/lokaOptions';
+import type { LokaUserProfile } from '@/types/loka';
+import { Image, Text, View } from 'react-native';
 
 function labelForInterest(key: string) {
   return INTEREST_TAGS.find((t) => t.key === key)?.label ?? key;

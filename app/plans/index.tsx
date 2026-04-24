@@ -1,14 +1,14 @@
+import { useRouter } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import {
-  Alert,
-  Pressable,
-  SafeAreaView,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
+    Alert,
+    Pressable,
+    SafeAreaView,
+    ScrollView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
-import { useRouter } from 'expo-router';
 
 import { PlanCard } from '@/components/PlanCard';
 import { createPlan, listenToPlansForUser } from '@/lib/plans';

@@ -3,22 +3,22 @@ import { useLocalSearchParams, useNavigation, useRouter } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useMemo, useState } from 'react';
 import {
-  KeyboardAvoidingView,
-  Platform,
-  Pressable,
-  SafeAreaView,
-  Text,
-  TextInput,
-  View,
-  FlatList,
+    FlatList,
+    KeyboardAvoidingView,
+    Platform,
+    Pressable,
+    SafeAreaView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { ChatBubble } from '@/components/ChatBubble';
 import { db } from '@/lib/firebase';
+import type { MatchDoc } from '@/lib/matches';
 import { listenToRoomMessages, sendMessage, updateMatchLastMessage, type MessageDoc } from '@/lib/messages';
 import { createPlan } from '@/lib/plans';
 import { useAuthStore } from '@/stores/useAuthStore';
-import type { MatchDoc } from '@/lib/matches';
 
 function formatISODate(d: Date) {
   const yyyy = d.getFullYear();

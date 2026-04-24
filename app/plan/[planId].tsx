@@ -2,14 +2,14 @@ import { useLocalSearchParams, useNavigation } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useMemo, useState } from 'react';
 import {
-  FlatList,
-  KeyboardAvoidingView,
-  Platform,
-  Pressable,
-  SafeAreaView,
-  Text,
-  TextInput,
-  View,
+    FlatList,
+    KeyboardAvoidingView,
+    Platform,
+    Pressable,
+    SafeAreaView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { ChatBubble } from '@/components/ChatBubble';

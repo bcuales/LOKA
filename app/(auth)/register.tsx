@@ -1,12 +1,12 @@
 import { Link } from 'expo-router';
 import { useState } from 'react';
 import {
-  ActivityIndicator,
-  Pressable,
-  SafeAreaView,
-  Text,
-  TextInput,
-  View,
+    ActivityIndicator,
+    Pressable,
+    SafeAreaView,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { signUpWithEmail } from '@/lib/auth';
